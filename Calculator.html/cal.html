@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="cal.css">
+</head>
+
+<body>
+ 
+    <div class="cal-box">
+        <input type="text" id="cal" disabled>
+        <div class="cal-buttons">
+            <button onclick="reset()">C</button>
+            <button onclick="addToCal('1')">1</button>
+            <button onclick="addToCal('2')">2</button>
+            <button onclick="addToCal('3')">3</button>
+            <button onclick="addToCal('+')">+</button>
+            <button onclick="addToCal('4')">4</button>
+            <button onclick="addToCal('5')">5</button>
+            <button onclick="addToCal('6')">6</button>
+            <button onclick="addToCal('-')">-</button>
+            <button onclick="addToCal('7')">7</button>
+            <button onclick="addToCal('8')">8</button>
+            <button onclick="addToCal('9')">9</button>
+            <button onclick="addToCal('*')">*</button>
+            <button onclick="addToCal('/')">/</button>
+            <button onclick="addToCal('0')">0</button>
+            <button id="equ" onclick="Equal()">=</button>
+        </div>
+    </div>
+    <script src="cal.js"></script>
+</body>
+</html>
