@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #35547a;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header.h1 {
+  margin: 0;
+}
+
+.photos,.facilities, .timing, .charges, .h2 {
+  text-align: center;
+  color: #333;
+}
+
+.photos,.facilities, .timing, .charges {
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.photos,.facilities{
+  padding-left: 100px;
+}
+.facilities{
+  background-color: #7187A1;
+  color: #35547a;
+}
+.column {
+  float: left;
+  width: 275px;
+  margin: 20px;
+  padding: 5px;
+
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.charges{
+  height: 350px;
+}
+
+.charges .column{
+  color: white;
+  background-color: #4c79af;
+  height: 130px;
+  width: 300px;
+  margin-bottom: 50px
+}
+
+.b{
+  color: black;
+}
+
+
+.charge{
+
+  text-align: center;
+  margin-top: 20px;
+  width: 100%;
+  height: 200px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #35547a;
+  color: white;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  
+}
+
+footer.h2{
+  color: beige;
+
+}
+
+ul{
+   list-style: none;
+   color: #fff;
+}
